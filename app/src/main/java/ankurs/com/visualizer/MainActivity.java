@@ -77,8 +77,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static int getRandomColor(int power) {
-        return Color.argb(255, MainActivity.getRandom(power, MIN),
-                MainActivity.getRandom(power,MIN), MainActivity.getRandom(power,MIN));
+        return Color.argb(MainActivity.getRandom(power, MIN), MainActivity.getRandom(255, 0),
+                MainActivity.getRandom(255, 0), MainActivity.getRandom(255, 0));
     }
 
     @Override
